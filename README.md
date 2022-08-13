@@ -8,6 +8,6 @@ Pseudocode:
 
     Then the program must generate a random computer selection.
 
-    Once the program receives a randomly generated computer selection, both selections from the user and the computer must be compared and a winnder declared.
+    Once the program receives a randomly generated computer selection, both selections from the user and the computer must be compared and a winner declared.
 
     The game must be repeated for 5 rounds while keeping count of the score and winner must be declared at the end.
