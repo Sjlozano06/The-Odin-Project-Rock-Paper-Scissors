@@ -14,26 +14,26 @@
         </div>
 
         <div class="scoreboard">
-            <div class="playerScore">
-            </div>
-            <div class="computerScore">
+            <div>The first up to 5 wins!</div>
+            <div class="scores">
+                <div class="playerScore">
+                    <p>Player Score: <span id="pScore"></span></p>
+                </div>
+                <div class="computerScore">
+                    <p>Computer Score: <span id="cScore"></span></p>
+                </div>
             </div>
         </div>
 
         <div class="buttons">
-            <div class="button rock">
-                <button><i class="fa-solid fa-hand-fist"></i></button>
-            </div>
-            <div class="button paper">
-                <div class="symbol">
-                    
-                </div>
-            </div>
-            <div class="button scissors">
-                <div class="symbol">
-                    
-                </div>
-            </div>
+            <button id="rock"><i class="fa-solid fa-hand-fist fa-10x"></i></button>
+            <button id="paper"><i class="fa-solid fa-hand fa-10x"></i></button>
+            <button id="scissors"><i class="fa-solid fa-hand-scissors fa-10x"></i></button>
+        </div>
+
+        <div class = "messageBox">
+            <span id="playerChoice"></span><span id="computerChoice"></span>
+            <p><span id="victor"></span></p>
         </div>
 
         <div class="footer">
