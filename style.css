@@ -53,11 +53,21 @@ body {
 }
 
 .messageBox {
-    width: 700px;
-    
+    font-size: 70px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#Vs {
+    font-weight: bold;
+}
+
+#victor {
+    font-size: 25px;
 }
 
 .footer {
