@@ -1,17 +1,21 @@
 body {
-    background-color: rgb(227,228,224);
+    margin: 0;
+    background-color: #272d2f;
     font-family:'Courier New', Courier, monospace;
-    color: rgb(45 45 43);
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
+    background-color: #fe724c;
+    color: #272d2f;
+    margin: 0px;
     width: 100%;
     font-size: 80px;
     font-weight: bold;
-    border-bottom: solid rgb(45 45 43) 4px;
+    border-bottom: solid #272d2f 4px;
     display: flex;
     justify-content: center;
 }
@@ -31,6 +35,16 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+
+.pScoreIncrease {
+    transform: scale(1.2);
+    background-color: rgb(3, 182, 3);
+}
+
+.cScoreIncrease {
+    transform: scale(1.2);
+    background-color: rgb(199, 30, 0);
 }
 
 
@@ -71,6 +85,9 @@ body {
 }
 
 .footer {
+    background-color: #fe724c;
+    color: #272d2f;
+    font-weight: bold;
     width: 100%;
     position: absolute;
     bottom: 0;
