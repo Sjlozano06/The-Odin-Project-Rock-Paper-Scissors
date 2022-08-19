@@ -41,13 +41,30 @@ buttons.forEach((button) => {
      })
 
      button.addEventListener('click',() => {
-        playRound(button);
+            game(button);
     })
-        
-    });
+});
     
 /* FUNCTIONS */
+function game(button){
 
+    let gameOver = false;
+    let gameWinner;
+
+    if (userScore == 5 || computerScore == 5){
+        if (userScore == 5){
+            victorMessage.textContent = 'You won the game!';
+        }
+        else if (computerScore == 5){
+            victorMessage.textContent = 'You lost the game!';
+        }
+        gameOver == true;
+        return;
+    }
+    else if (gameOver == false) {
+        playRound(button);
+    }
+}
 /* Plays round upon user click */
 
 function playRound(button) {
